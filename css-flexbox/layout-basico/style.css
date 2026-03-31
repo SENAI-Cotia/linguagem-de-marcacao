@@ -21,19 +21,53 @@ html, body {
  *   sobre como utilizá-los. 
  * - Altere e acrescente seletores para novas regras CSS à vontade.
  */
+body{
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+
+}
+
+main {
+	display: flex;
+	width: 100vw;
+	height: 60vh;
+}
 
 header {
+	width: 100vw;
+	height: 20vh;
 	background-color: lightseagreen;
 }
 
 aside {
 	background-color: coral;
+	width: 30vw;
+	height: 60vh;
 }
 
 section {
 	background-color: beige;
+	width: 80%;
+	height: 60vh;
+	margin-left: 35px;
+	
+
+}
+
+header,
+main,
+aside,
+section,
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
 }
 
 footer {
+	display: flex;
+	width: 100vw;
 	background-color: mediumaquamarine;
+	height: 20vh;
 }
