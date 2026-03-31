@@ -1,4 +1,4 @@
-# Lingugagem de Marcação
+# Linguagem de Marcação
 
 | Unidade Curricular    | Turma      |
 | --------------------- | ---------- |
