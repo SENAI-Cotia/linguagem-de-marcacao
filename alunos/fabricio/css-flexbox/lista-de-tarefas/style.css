@@ -1,22 +1,70 @@
-html {
-	margin: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
+/**
+ * 🗒️ Lista de tarefas
+ *
+ *
+ *
+ */
+html{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-body {
-	background-color: azure;
+body{
+    background-color: azure;
 }
 
-article.tarefa {
-	background-color: white;
-	border-radius: 20px;
-	padding: 20px;
+section{
+    display: flex;
+    justify-content: center;
+    margin: 15%;
 }
 
-.medalha {
-	background-color: burlywood;
-	border-radius: 2em;
-	padding: 0.3em 0.6em;
+hr{
+    border-color: #F0F8FF;
 }
+
+
+article.tarefa{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+    width: 500px;
+}
+
+.medalha{
+    background-color: burlywood;
+    border-radius: 2em;
+    padding: 0.3em 0.6em;
+}
+
+.corpo{
+    border: 1px;
+    border-radius: 5px;
+}
+
+
+.publicacao{
+    display: flex;
+    justify-content: right;
+}
+
+.excluir{
+    float: right;
+}
+
+#trabalho{
+    color: darkmagenta;
+    background-color: violet;
+}
+
+#urgente{
+    color: firebrick;
+    background-color: lightpink;
+}
+
+
+
+
 
