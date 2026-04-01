@@ -1,113 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f2f6ff;
-  color: #1f2d4f;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
+    background: antiquewhite;
+    font-family: sans-serif;
 }
-
-.page {
-  width: min(420px, 100%);
+ 
+code {
+    color: tomato;
+    background-color: whitesmoke;
+    padding: 0.3em 0.6em;
 }
-
-.card {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 14px 30px rgba(44, 70, 139, 0.15);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tag-wrap {
-  display: flex;
-  gap: 8px;
-}
-
-.tag {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 6px 12px;
-  border-radius: 999px;
-}
-
-.tag-trabalho {
-  background: #e8dbff;
-  color: #5d39b9;
-}
-
-.tag-urgente {
-  background: #ffd4d2;
-  color: #b93e43;
-}
-
-.btn-trash {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  font-size: 1.1rem;
-  line-height: 1;
-  color: #364a6b;
-}
-
-.card h1 {
-  font-size: 1.75rem;
-  color: #13234b;
-  line-height: 1.2;
-}
-
-.card p {
-  font-size: 1rem;
-  color: #52648d;
-  line-height: 1.6;
-}
-
-.card-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.switches {
-  display: flex;
-  gap: 8px;
-}
-
-.switch {
-  width: 26px;
-  height: 18px;
-  border-radius: 999px;
-  display: inline-block;
-  background: #d9e5ff;
-  border: 1px solid #aec5f8;
-}
-
-.switch.on {
-  background: linear-gradient(135deg, #4b8eff, #739fff);
-}
-
-.switch.off {
-  background: #d9edff;
-}
-
-.created {
-  font-size: 0.92rem;
-  color: #5c6b94;
-}
+ 
+/**
+ * 🗒️ Cards - Flexbox
+ * =======================================================================================================
+ *
+ * Utilizando os conceitos e propriedades de flexbox, estilize
+ * a página index.html a partir deste style.css, do modo a experimentar
+ * com a exibição de cartões (cards) em uma página.
+ *
+ * Chamamos de cards o componente visual que geralmente agrupa
+ * em um retângulo informações, como título, descrição, imagem,
+ * etc, de uma notícia ou outro tipo de conteúdo qualquer.
+ *
+ * > Dicas
+ * - A propriedade display: flex deve estar no container
+ * - Consulte a documentação das propriedades CSS, pesquise por artigos e explicações, em caso de dúvidas sobre como utilizá-los.
+ * - Altere e acrescente seletores para novas regras CSS à vontade.
+ */
+ 
