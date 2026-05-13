@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #878da7;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article.tarefa {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: 450px; 
+    box-shadow: 0 4px 10px rgba(19, 18, 18, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.medalha {
+    display: flex;
+}
+
+.medalhaTrabalho, .medalhaUrgente {
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.medalhaTrabalho { 
+    background-color: #f3adfc;
+    color: #330a36;
+}
+
+.medalhaUrgente {
+    background-color: #fce4e4;
+    color: #b83939;
+}
+
+.excluir {
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.corpo h2 {
+    color: #2e384d;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.corpo p {
+    color: #6b778c;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-top: 1px solid #f4f5f7; 
+    padding-top: 20px;
+}
+
+.usuarios {
+    display: flex;
+}
+
+.usuario {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #72a1ff;
+    border: 2px solid white;
+}
+
+.usuario:last-child {
+    background-color: #d8e9f5;
+    margin-left: -10px; 
+}
+
+.publicacao {
+    color: #6b778c;
+    font-size: 14px;
+}

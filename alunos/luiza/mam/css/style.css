@@ -1,0 +1,102 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+.logo-area {
+    padding-left: 20px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.header-menu {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    border-left: 2px solid #222121;
+}
+
+.menu-item p {
+    margin: 0 0 5px 0; 
+    font-size: 25px;
+    text-transform: lowercase;
+    padding: 0 40px;
+}
+
+.icone-menu {
+    width: 70px;
+}
+
+.menu-lupa {
+    border-top: 2px solid #222121; 
+    width: 100px;
+}
+
+.icone-lupa {
+    width: 70px;
+}
+
+
+.info-bar {
+    display: flex;
+    padding: 30px 20px;
+    gap: 60px;
+}
+
+.nome-museu {
+    width: 250px;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: lowercase;
+    line-height: 1.1;
+}
+
+.aviso {
+    flex: 1;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 1.2;
+}
+
+.aviso a { 
+    color: black; 
+    text-decoration: underline; 
+}
+
+
+.banner-principal img {
+    display: block;
+    width: 100%;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.whatsapp img {
+    width: 100px;
+    height: 100px;
+}
